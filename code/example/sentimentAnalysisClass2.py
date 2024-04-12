@@ -18,6 +18,7 @@ cn_model = KeyedVectors.load_word2vec_format('../static/embeddings/。', binary=
 
 # 查看每个词向量长度——300
 embedding_dim = cn_model['山东大学'].shape[0]
+
 print("embedding_dim:", embedding_dim)
 
 # 获得样本的索引
